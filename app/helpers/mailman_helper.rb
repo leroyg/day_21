@@ -1,0 +1,2 @@
+module MailmanHelper
+end

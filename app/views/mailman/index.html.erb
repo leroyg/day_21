@@ -1,0 +1,10 @@
+Things
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+
+      <%= link_to post.title, post %><br/>
+      <%= image_tag post.photo, class:"thumb" %>
+    <li>
+  <% end %>
+</ul>
